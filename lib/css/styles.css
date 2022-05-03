@@ -1,0 +1,115 @@
+body {
+    background: center url("../../lib/bg.png");
+   }
+main{
+font-family: 'Alegreya', serif;
+font-family: 'Libre Baskerville', serif;
+}
+  
+.scale {
+    height: 20px;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reddott {
+    background-color: red;
+    height: 100%;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.graydott {
+    background-color: rgb(179, 179, 179);
+    height: 100%;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.grayline {
+    background-color: rgb(179, 179, 179);
+    height: 30%;
+    width: 12%;
+
+}
+
+.redline {
+    background-color: red;
+    height: 30%;
+    width: 12%;
+
+}
+
+h1{
+display: flex;
+margin-top: 5%;
+justify-content: center;
+
+font-size: 50px;
+font-weight: bold;
+color: rgb(207, 207, 207);
+}
+
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+Form{
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.37);
+
+}
+
+
+
+li{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    }
+input{
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(179, 179, 179);
+    background-color: rgba(241, 241, 241, 0.562);
+    width: 100%;
+    color: #757575;
+    
+}
+
+button{
+    
+}
+#birthdate::before {
+    content: attr(placeholder);
+    color: #757575;
+    margin-right: 5%;
+}
+select{
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(179, 179, 179);
+    background-color: rgba(241, 241, 241, 0.562);
+    width: 100%;
+    color: #757575;
+}
+
+
+}

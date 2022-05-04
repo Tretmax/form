@@ -137,7 +137,7 @@ select{
     font-weight: bolder;
     color: black;
     font-family: 'Alegreya', serif;
-    border: 2px solid black;
+    border: 1px solid black;
     
 }
 a{
@@ -153,6 +153,7 @@ p{
 }
 h3{
     color: aliceblue;
+  
 }
 
 

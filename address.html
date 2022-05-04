@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./lib/css/reset.css">
   <link rel="stylesheet" href="./lib/css/styles.css">
-  <title>Forms 1/5</title>
+  <title>Forms 2/5</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Libre+Baskerville&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
     <Header>
       <div class="scale">
         <div class="reddott"></div>
-        <div class="grayline"></div>
-        <div class="graydott"></div>
+        <div class="redline"></div>
+        <div class="reddott"></div>
         <div class="grayline"></div>
         <div class="graydott"></div>
         <div class="grayline"></div>
@@ -38,38 +38,33 @@
 
 
     <fieldset>
-      <form action=address.html>
-        <h2>Personal information</h2>
+      <form action=contact.html>
+        <h2>Address</h2>
 
         <ul>
           <li>
 
-            <input type="text"  required id="firstname" name="Firstname" placeholder="Firstname">
+            <input type="text" id="street" name="street" placeholder="Street, nbr">
           </li>
           <li>
 
-            <input type="Text"  required id="surname" name="Surname" placeholder="Surname">
+            <input type="text" id="city" name="city" placeholder="City">
           </li>
           <li>
 
-            <input type="date"  required id="birthdate" name="Birthdate" placeholder="Birthdate">
+            <input type="number" id="postcode" name="postcode" placeholder="Postcode">
           </li>
           <li>
 
-            <input type="number" id="inshurace_number" name="inshurace_number" placeholder="Inshurace number">
+            <input type="text" id="country" name="country" placeholder="Country">
           </li>
-          <li>
-
-            <select  required id="family_status" name="Family_status">
-              <option value="" disabled selected style='display:none;'>Family status</option>
-              <Option value="Married"> Married </Option>
-              <Option value="Single"> Single </Option>
-            </select>
-
-          </li>
+         
         </ul>
         <div class="buttons">
-          <button type="submit" class="btn"> Next → </button>
+
+
+          <a href="index.html" class="btn"> ← Prev</a>
+          <button type="submit" class="btn"> Next →</button>
 
 
         </div>

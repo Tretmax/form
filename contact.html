@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./lib/css/reset.css">
   <link rel="stylesheet" href="./lib/css/styles.css">
-  <title>Forms 1/5</title>
+  <title>Forms 3/5</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Libre+Baskerville&display=swap" rel="stylesheet">
@@ -19,10 +19,10 @@
     <Header>
       <div class="scale">
         <div class="reddott"></div>
-        <div class="grayline"></div>
-        <div class="graydott"></div>
-        <div class="grayline"></div>
-        <div class="graydott"></div>
+        <div class="redline"></div>
+        <div class="reddott"></div>
+        <div class="redline"></div>
+        <div class="reddott"></div>
         <div class="grayline"></div>
         <div class="graydott"></div>
         <div class="grayline"></div>
@@ -38,38 +38,29 @@
 
 
     <fieldset>
-      <form action=address.html>
-        <h2>Personal information</h2>
+      <form action=application.html>
+        <h2>Contact information</h2>
 
         <ul>
           <li>
 
-            <input type="text"  required id="firstname" name="Firstname" placeholder="Firstname">
+            <input type="email"  required id="email" name="email" placeholder="Email address">
           </li>
           <li>
 
-            <input type="Text"  required id="surname" name="Surname" placeholder="Surname">
+            <input type="number" id="phone" name="phone" placeholder="Phone">
           </li>
           <li>
 
-            <input type="date"  required id="birthdate" name="Birthdate" placeholder="Birthdate">
+            <input type="number"  required id="mobile" name="mobile" placeholder="Mobile">
           </li>
-          <li>
-
-            <input type="number" id="inshurace_number" name="inshurace_number" placeholder="Inshurace number">
-          </li>
-          <li>
-
-            <select  required id="family_status" name="Family_status">
-              <option value="" disabled selected style='display:none;'>Family status</option>
-              <Option value="Married"> Married </Option>
-              <Option value="Single"> Single </Option>
-            </select>
-
-          </li>
+          
         </ul>
         <div class="buttons">
-          <button type="submit" class="btn"> Next → </button>
+
+
+          <a href="address.html" class="btn"> ← Prev</a>
+          <button type="submit" class="btn"> Next →</button>
 
 
         </div>
